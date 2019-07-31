@@ -24,4 +24,8 @@ public class UserController {
         return userService.getById(id);
     }
 
+    public void test(){
+        System.out.println("test.....");
+    }
+
 }
