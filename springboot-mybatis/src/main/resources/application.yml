@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/java1904?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+    #开发阶段设置不要缓存
+  thymeleaf:
+    cache: false
+
+mybatis:
+  mapper-locations: classpath:/mapper/*.xml
+#日志级别 debug/info/warn/error
+#logging:
+#  file: d://logs//all.log
